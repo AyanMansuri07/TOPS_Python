@@ -1,0 +1,155 @@
+--------------------------------------------------------1__Lecture-------------------------5/8/2025-------------------------------------------------------------
+.ipynb  -> make a note in py thon , make a shall script
+
+print() -> it is an in build finction which is used to display appropriate message on console screen.
+
+syantax: 
+    print("message)
+
+    in python 2  print was a statement
+    syantax:
+        print "Hello"
+    
+    in python 3 print is a finction
+    syantax: 
+        print("Hello")
+
+
+end: use and parameter for combine  two print statement
+ex= print("Ayan" end "  ")  -----here in double corts you can also use any symboles insted of space
+    print("Mansuri")
+
+
+
+varialbe: which can stored a value
+    Rules:- 
+        1. we cannot use any resrved word or a keyword as a varialbe name.
+            eg. int, float,in,if .......
+        2. we can use A to Z ,a to z, _(undrscore) amd 0 - 9 in varialbe name.
+        3. we can not start varialbe name with digits
+        e.g.
+            1age    X
+            2age    X
+
+            age1
+            age2
+        4. varialbe name can not contain whitespace
+        e.g.
+            first name  X
+            firs_name
+            firstName   -----------it is called camle case 
+
+--------------------------------------------------------2__Lecture-------------------------7/8/2025-------------------------------------------------------------
+scond.py
+
+input() : using of inpur function we can access dynamic value undrscore
+    syantax :-
+        input("promt message" )
+
+    by defualt input() function accept  values in string format.
+
+example in scond.py
+
+type casting : to convert one data type into another data type 
+its called type casting
+e.g. int(value)
+--------------------------------------------------------3__Lecture-------------------------12/8/2025-------------------------------------------------------------
+operators : to perform some spectific operataions at that time we use  some symboles
+
+a+b here, a and b are oparands
+and +  is an operators
+
+1). arithmatic operators
+    + - / * % //(float division give only int value not float) **(find power)
+
+2). assignment operator
+    = to assign somethings 
+        a=10
+        b=10
+        a = a+b here it stor more memory 
+        a+=b
+
+3). logical operator
+    and
+    or 
+    not
+
+4). relational operator
+    < > == <= >= !=
+
+5). membership operator 
+    in  not in
+
+6). identity operator
+    is  is not
+---------------------------------------------------------
+CONTROL statement
+
+    ther are mainly 3 types of control statements
+    
+    1) conditional statement
+    2) looping statement
+    3) jumping statement
+    -----------------------------------------------------------
+    1) conditional statement
+        1) if statement
+        2) if .. else statement
+        3) elif statement
+        4) nested if statement
+        ---------------------------------------------------------------------------
+        1) if statement
+            execute when the condition is true
+            syantax:
+                if condition:
+                    block of code
+        2) if .. else statement
+             syantax:
+                if condition:
+                    block of code
+                else:
+                    block of code
+--------------------------------------------------------4__Lecture-------------------------14/8/2025-------------------------------------------------------------
+        3) elif statement
+            execute when we have multiple conditions it is called lader if else 
+            syantax:
+                if condition:
+                    block of code
+                elif condition:
+                    block of code
+                else:
+                    block of code
+        4) nested if statement
+            execute when need if else statements inside the another if else statement 
+            syantax:
+                if condition:
+                    if condition:
+                        block of code
+                    else:
+                        block of code
+                else:
+                    if condition:
+                        block of code
+                    else:
+                        block of code
+    -----------------------------------------------------------
+    2) looping statements
+        1) for loop
+        2) while loop           
+        --------------------------------------------------------------------------------
+--------------------------------------------------------5__Lecture-------------------------19/8/2025-------------------------------------------------------------
+        1) for loop : for loop is a sequance control loop
+            syantax:
+                for var in sequance:
+                    statement
+            ex.:
+                for i in range(1,6):
+                    print(a)
+            range(start,stop,steps) # by defualt start with 0 if not given starting position
+--------------------------------------------------------6__Lecture-------------------------21/8/2025-------------------------------------------------------------
+        2) while loop: while loop is entry control loop
+            syantax:
+                initialization
+                while condition:
+                    statement
+                    updation
+            

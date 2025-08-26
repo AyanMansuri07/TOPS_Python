@@ -1,0 +1,8 @@
+Name = input("Enter Your Name: ")
+DOB = input("Enter you birth date in string formate : ")
+age = int(input("Enter your age : "))
+address = input("enter your address : ")
+print("Name :",Name)
+print("DOB :",DOB)
+print("Age :",age)
+print("address :",address)
