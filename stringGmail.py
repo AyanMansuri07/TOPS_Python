@@ -6,3 +6,5 @@ if gmail.islower():
         print("Invalid Gmail address")
 else:
     print("Invalid Gmail address")
+
+
