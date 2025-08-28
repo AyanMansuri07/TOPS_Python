@@ -152,7 +152,7 @@ CONTROL statement
                 while condition:
                     statement
                     updation
---------------------------------------------------------7__Lecture-------------------------/8/2025-------------------------------------------------------------
+--------------------------------------------------------7__Lecture-------------------------23/8/2025-------------------------------------------------------------
         
 --------------------------------------------------------8__Lecture-------------------------26/8/2025-------------------------------------------------------------
         3) nested for loop: loop inside another loop
@@ -160,4 +160,8 @@ CONTROL statement
                 for var in sequance:
                     for var in sequance:
                         statements
-        
+    
+--------------------------------------------------------9__Lecture-------------------------28/8/2025-------------------------------------------------------------
+string : string is a collection of characters 
+    string which is represent by doublle quotation and single quotation.
+    string is immutable in python : immutable means unchangeble
