@@ -165,3 +165,5 @@ CONTROL statement
 string : string is a collection of characters 
     string which is represent by doublle quotation and single quotation.
     string is immutable in python : immutable means unchangeble
+--------------------------------------------------------10__Lecture-------------------------2/9/2025-------------------------------------------------------------
+slicing:
