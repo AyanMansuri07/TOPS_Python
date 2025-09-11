@@ -166,4 +166,34 @@ string : string is a collection of characters
     string which is represent by doublle quotation and single quotation.
     string is immutable in python : immutable means unchangeble
 --------------------------------------------------------10__Lecture-------------------------2/9/2025-------------------------------------------------------------
-slicing:
+slicing
+3) jumping statement: ther are 3 jumping statements are there:
+    1) break : break the loop or sequance
+    2) continue : skip the process
+    3) pass : nothing to display
+--------------------------------------------------------------------------------------------------------
+COLLECTION : colldection of different different elements in single entity.
+There are 4 types of collection
+1) list
+2) tuple
+3) set 
+4) dictionary
+-------------------------------------------------------------------------------------
+1) List: List is  a orederable, indexable, sequance colldection data type.
+    list is mutable (changeable) collection data type
+    list which is represent by []  braces.
+
+    -----------------------------------------------------------------
+    To add elements in existing list there are 3 ways : 
+    1_) append() : we can add only one element at end of the list.
+        syantax:
+            list.append(newelement)
+    2_) extract() : we can add multiple elements at the end of the list.
+        syantax:
+            list.extract([element],elements .........)
+    3_) insert(): we can add any element at middle of the list or a specific index position.
+        syantax:
+            list.insert(index,newelement)
+--------------------------------------------------------10__Lecture-------------------------2/9/2025-------------------------------------------------------------
+--------------------------------------------------------12__Lecture-------------------------2/9/2025-------------------------------------------------------------
+list comprehansion
