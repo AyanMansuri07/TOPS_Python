@@ -1,0 +1,5 @@
+f = open("file_ex_1.txt","w")
+f.write("\n Hello")
+f.write("\n welcom to python language ")
+f.write("\n my file is handling my python virtual machine ")
+f.close()

@@ -267,4 +267,10 @@ filter : using of filter function we can retrive valuee condition wise
 
         NOTE:- iterator means list, tuple,dictionary etc.
 
-    
+--------------------------------------------------------20__Lecture-------------------------30/9/2025-------------------------------------------------------------
+there are 3 modes to use file handling
+
+read mode : r
+write mode : w
+append mode : a 
+create mode : X
