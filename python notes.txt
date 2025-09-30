@@ -183,6 +183,9 @@ There are 4 types of collection
     list is mutable (changeable) collection data type
     list which is represent by []  braces.
 
+    list which is orderable , indexable data type
+    list contain duplicate elemen
+
     -----------------------------------------------------------------
     To add elements in existing list there are 3 ways : 
     1_) append() : we can add only one element at end of the list.
@@ -195,5 +198,73 @@ There are 4 types of collection
         syantax:
             list.insert(index,newelement)
 --------------------------------------------------------10__Lecture-------------------------2/9/2025-------------------------------------------------------------
---------------------------------------------------------12__Lecture-------------------------2/9/2025-------------------------------------------------------------
+--------------------------------------------------------12__Lecture-------------------------9/9/2025-------------------------------------------------------------
 list comprehansion
+
+--------------------------------------------------------13__Lecture-------------------------11/9/2025-------------------------------------------------------------
+tuple : tuple is a collection data type which is contain similar and dis- similar data elemen.
+    tuple is represent by ()
+    tuple is immutable - we can't change it value
+    tuple which is orderable , indexable data type
+    tuple contain duplicate elemen
+    syantax:
+        t = ()
+-------------------------------------
+set : set is a colldection data type which is represent bye {} braces
+    set which is unorderable , un unindexable data type
+    set remove duplicate elemen
+    
+    syantax:
+        s = {}
+        or 
+        s = set()  # to conbert other things into the set
+--------------------------------------------------------14__Lecture-------------------------13/9/2025-------------------------------------------------------------
+dictionary:- dictionary is a collection data type
+        which is contain keys and value in a pair,
+        dictionary which is represent by {}braces
+        syantax:
+            student_dict={'key1' : value1,'key2' :  value2,......}
+   
+--------------------------------------------------------15__Lecture-------------------------16/9/2025-------------------------------------------------------------
+
+--------------------------------------------------------16__Lecture-------------------------18/9/2025-------------------------------------------------------------
+function : function is a block of code that code are used to again and again
+    function which is provide reusability
+    function which reduce our code.
+    using of function we can save time.
+
+    in python there is def(define) keyword is use for  creating function.
+    syantax:
+        def <function name> ():
+            statement
+--------------------------------------------------------17__Lecture-------------------------23/9/2025-------------------------------------------------------------
+there are two types of function 
+1). in - build function
+2). user define function
+
+lambda function : function without any name
+    syantax: 
+        var = lambda arguments : statement
+
+        NOT:- lambda function accept number of argument but return single statement
+--------------------------------------------------------18__Lecture-------------------------23/9/2025-------------------------------------------------------------
+MODULE: ---- module is a python file which is contain function,logics,varialbes and many more
+
+
+python has huge Library collection
+    there are 2\3 types of MODULE
+    1) In build MODULE
+    2) User define MODULE
+    3) Gloabal or third party MODULE
+-----------------------------------------------------------------------------
+In build MODULE ::
+    random 
+    math
+--------------------------------------------------------19__Lecture-------------------------27/9/2025-------------------------------------------------------------
+filter : using of filter function we can retrive valuee condition wise 
+    syantax : 
+        filter(function,iterator)
+
+        NOTE:- iterator means list, tuple,dictionary etc.
+
+    
