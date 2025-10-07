@@ -274,3 +274,64 @@ read mode : r
 write mode : w
 append mode : a 
 create mode : X
+
+JSON : javascript object notation
+which is stroed in key and value format
+
+{
+    key : value
+}
+--------------------------------------------------------21__Lecture-------------------------4/10/2025-------------------------------------------------------------
+what is exception:
+    due to some specific incident program executeation fail its called exception
+
+    to handle this kind of exception its called exception handling
+    ----------------------------------------------------------------------------------------------------
+    using og try and except block we can handle exception handling.
+
+    try block which is contain error
+    except block which is contain statement which is execute whenever exception occur.
+
+    syantax: 
+        try:
+            error code
+        except:
+            statement
+
+----------------------------------------------------------------
+some common exception types :
+
+NameError           :   when varialbe is not declare in program
+ValueErorr          :   when we enter wrong value
+TypeError           :   when we try to perform operataions onn wrong data type
+            e.g : "hhh"/10
+IndexError          :   when idnex out of the range
+FillNotFoundError   :   when  we are trying to open wrong file 
+ZerDivisionError    :   whenever we try to devide any number by zero
+
+------------------------------------------------------------------------------------------------------
+1) try : which is contain error part
+2) except : which is mainly handle exception
+3) else : it execute when there is no erorr in program 
+4) finally : always execute
+
+--------------------------------------------------------22__Lecture-------------------------7/10/2025-------------------------------------------------------------
+opps : object oriented programming system
+
+->class
+->object
+->Inheritance
+->Encapsulation
+->Polymorphism
+->Abstraction
+
+-------------------------------------------------------------------------
+1).Class : class is a datatype which is contain similar and di-similar
+        data elements
+        in class we can store data members and member function.
+        in python using of class keyword we can declare class.
+
+    syantax:
+        class <class name>:
+            data member
+            member function

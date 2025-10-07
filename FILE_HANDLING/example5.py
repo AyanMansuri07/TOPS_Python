@@ -1,0 +1,6 @@
+f = open("myfile.txt","a")
+name = input("enter the name : ")
+age = int(input("enter the : "))
+f.write("\n "+name)
+f.write(age)
+f.close()
