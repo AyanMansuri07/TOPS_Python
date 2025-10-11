@@ -335,3 +335,45 @@ opps : object oriented programming system
         class <class name>:
             data member
             member function
+-------------------------------------------------------------------------
+2).object : object is an instance of class.
+        object is a varialbe of class
+        using of object we can access properties of class.
+    syantax:
+        obj = classname()
+=> constructor : in python there is not wrod like constructor but there is one method __init__()
+    using of this method we can add functionallity like constructor,
+    it is invoke aoutomatically whenever we create object of class.
+
+-------------------------------------------------------------------------
+self : self is a keyword in python 
+    which is represent current class property
+
+
+--------------------------------------------------------23__Lecture-------------------------9/10/2025-------------------------------------------------------------
+3) Inheritance : 
+        one class derived from another calss its called 
+        Inheritance : 
+        -> provid  code reusability
+        -> using of it we can reduce the code 
+        => using of it we can save time.
+
+types of Inheritance:
+1) single-level Inheritance
+2) multi-level Inheritance
+3) multiple Inheritance
+4) Hirerchical Inheritance
+5) Hybrid Inheritance
+-----------------------------------------------------------------
+1) single Inheritance : one class derived ptoprtices of anothre class
+
+--------------------------------------------------------24__Lecture-------------------------11/10/2025-------------------------------------------------------------
+3) multiple Inheritance: one child class have more than one parent class .
+
+            A           B 
+            |           |
+            -------------
+                  |
+                  V 
+                  C
+
